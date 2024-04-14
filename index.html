@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>펫쇼핑몰</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--폰트어썸-->
+    <script src="https://kit.fontawesome.com/f3c9d07c5d.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="centerbox">
+            <div class="log_box">
+                <!-- 로그인전 -->
+                <div class="login">
+                    <a href="#">로그인</a>
+                    <a href="#">회원가입</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">장바구니 <span class="basket_ea">99</span></a>
+                </div>
+                <!-- // 로그인전 -->
+
+                <!-- 로그인후 -->
+                <div class="logout">
+                    <a href="#">로그아웃</a>
+                    <a href="#">마이페이지</a>
+                </div>
+                <!-- // 로그인후 -->
+            </div>
+
+            <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+
+            <div class="search_box">
+                <input type="text">
+                <button>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="gnb_box">
+            <nav>
+                <ul class="gnb">
+                    <li><a href="sub.html">BEST</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+
+                            <ul class="lnb">
+                                <li><a href="#">TOP100</a></li>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">PAYBACK</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">NEW</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+
+                            <ul class="lnb">
+                                <li><a href="#">TOP100</a></li>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">PAYBACK</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">LIVING</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+
+                            <ul class="lnb">
+                                <li><a href="#">TOP100</a></li>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">PAYBACK</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">MAGAZINE</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+
+                            <ul class="lnb">
+                                <li><a href="#">TOP100</a></li>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">PAYBACK</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">EVENT</a>
+                        <div class="lnb_box">
+                            <span class="bbyojok"></span>
+
+                            <ul class="lnb">
+                                <li><a href="#">TOP100</a></li>
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">PRODUCT</a></li>
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">PAYBACK</a></li>
+                                <li><a href="#">EVENT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="visual">
+        <div class="textboxx">
+            <p>NOWSSI</p>
+            <p>나우씨<br>
+                S/S 신상품 입고 </p>
+            <p>미피의 사랑스러움과 나우씨의 편안함을 만나보세요!</p>
+        </div>
+        <div class="char_box">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/char2.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/item4.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/char3.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/char4.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="section_box">
+        <section id="section1">
+            <div class="centerbox">
+                <h2>
+                    BEST
+                    <span>가장 인기있는 아이템이에요!</span>
+                </h2>
+
+                <!-- 찜하면 favorite 취소하면 no-favorite -->
+                <ul class="cont">
+                    <li><a href="#">
+                        <figure><img src="images/item1.jpg" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            펫츠앤미 똑딱이 하네스 8colors
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">42,000원</div>
+                        </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/item002.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            이츠독 에이프릴 린넨 원피스
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">39,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/item003.jpg" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            강아지 반폴라 티셔츠 3COLOR
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">14,800원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/item009.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            릴라덴탈케어 강아지 천연치약
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">28,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/item006.jpg" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            굿나잇 베어 필로우 강아지베개
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">8,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <section id="section2">
+            <div class="centerbox">
+                <ul class="cont">
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_07.jpg" alt=""></figure>
+                        </a>
+                        <div class="title">#슬링백</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_06.jpg" alt=""></figure>
+                        </a>
+                        <div class="title">#하네스</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_03.jpg" alt=""></figure>
+                        </a>
+                        <div class="title">#목욕용품</div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <figure><img src="images/sec2_04.jpg" alt=""></figure>
+                        </a>
+                        <div class="title">#장난감</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="section3">
+            <div class="centerbox swiper mySwiper">
+                <h2>
+                    BRAND PICK! 
+                    <span></span>
+                </h2>
+
+                <ul class="cont swiper-wrapper">
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/slide01.png" alt=""></a></li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/slide02.jpg" alt=""></a></li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/slide01.png" alt=""></a></li>
+                    <li class="swiper-slide">
+                        <a href="#"><img src="images/slide02.jpg" alt=""></a></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+
+        <section id="section4">
+            <div class="centerbox">
+                <h2>
+                    WHAT’S NEW
+                    <span>신제품을 만나보세요</span>
+                </h2>
+        
+            <div class="cont_box">
+                <figure><img src="images/sec4img1.png" alt=""></figure>
+                <ul class="cont">
+                    <li><a href="#"><img src="images/sec4img01.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sec4img02.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sec4img03.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="images/sec4img04.jpg" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        </section>
+
+
+        <section id="section5">
+            <a href="#">
+                <img src="images/banner4_02.png" alt="">
+            </a>
+        </section>
+
+
+        <section id="section6">
+            <div class="centerbox">
+                <h2>
+                    MD’S PICK
+                    <span>MD추천상품이에요!</span>
+                </h2>
+
+                <!-- 찜하면 favorite 취소하면 no-favorite -->
+                <ul class="cont">
+                        <li><a href="#">
+                        <figure><img src="images/sec6_01.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            레인보우 스모킹 크롭 탑 XS-2XL
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">29,500원</div>
+                    </div>
+                    </a>
+                    </li>
+                        <li><a href="#">
+                        <figure><img src="images/sec6_02.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            트렌치 원피스 하네스 XS-XL 
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">47,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                        <li><a href="#">
+                        <figure><img src="images/sec6_033.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            이츠독 오가닉 아기여우 누빔 조끼
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">34,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                        <li><a href="#">
+                        <figure><img src="images/sec604.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            이츠독 오가닉 누빔 둥지 베드
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">89,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                        <li><a href="#">
+                        <figure><img src="images/sec6_05.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            이츠독 웰컴 퍼피 원형 베드
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">69,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/sec6_07.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            이츠독 웰컴 퍼피 3단 스텝
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">99,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/sec6_08.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            리토가토 오가닉 크롭조끼 2colors
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">29,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <figure><img src="images/sec6_009.jpg.crdownload" alt=""></figure>
+                        <div class="cont_ex">
+                        <div class="title">
+                            코코시앙 모네 원피스 8colors
+                            <span class="no-favorite">♡</span>
+                            <span class="favorite">♥</span>
+                        </div>
+                        <div class="price">36,000원</div>
+                    </div>
+                    </a>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="prod_today">
+        <h2>최근 본 상품</h2>
+        <ul>
+            <li><a href="#"><img src="images/menulist.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menulist7.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menulist3.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menulist5.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menulist4.png" alt=""></a></li>
+            <li><a href="#"><img src="images/menulist2.png" alt=""></a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="centerbox">
+            <span class="footerLogo">
+                <img src="images/footerlogo.png" alt="올치">
+            </span>
+            <div class="addWrap">
+                <a href="#">이용약관 ㅣ 개인정보취급방침 ㅣ 비급여 수가안내</a>
+                <address>
+                    ㈜호텔서울 04533 서울특별시 중구 을지로 30 /사업자등록번호 104-81-25980<br>
+                    대표이사 김태홍 / 사업자등록번호 104-81-25980 /통신판매신고번호 중고02805호
+                    <p class="copyright">Copyright ⓒ 2023 KIOST ALL RIGHTS RESERVED.</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/action.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        },
+    });
+    </script>
+</body>
+</html>
